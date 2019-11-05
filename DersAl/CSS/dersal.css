@@ -1,0 +1,747 @@
+@font-face {
+    font-family:"helvetica";
+    src:url("../Font/HelveticaNeueLTPro-Bd.otf");
+    src:url("../Font/HelveticaNeueLTPro-Lt.otf");
+    src:url("../Font/HelveticaNeueLTPro-Md.otf");
+    src:url("../Font/HelveticaNeueLTPro-Roman.otf");
+    src:url("../Font/HelveticaNeueLTPro-Th.otf");
+    src:url("../Font/NeueBold.otf");
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+    position:fixed;
+    width:100%;
+    z-index:500;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.topnav li a:hover:not(.active) /* Hover */
+{
+    -webkit-transition: all .25s ease-in;
+}
+
+ul.topnav li a.active /* Açık olan sayfa renk */
+{
+ /*   background-color: #4CAF50; */ 
+}
+
+ul.topnav li.right 
+{
+    float: right;
+}
+.guncelsurum {
+    float:right;
+    color:white;
+    font-size:17px;
+    position:relative;
+    top:15px;
+    right:15px;
+}
+#ksection1 {
+    width:100%;
+    height:450px;
+}
+#ksection3 {
+    width:100%;
+    height:100px;
+    background-color:#333;
+}
+#ksection4 {
+    width:100%;
+    height:auto;
+}
+#ksection5 {
+    width:100%;
+    height:auto;
+}
+.morekurshr {
+    float:left;
+    width:480px;
+}
+.ozgecmis {
+    font-size:16px;
+    color:#29303b;
+    margin-left:50px;
+    margin-top:50px;
+    line-height: 1.43;
+    float:left;
+}
+#kabout {
+    width:200px;
+    height:300px;
+    float:left;
+    margin-left:350px;
+    margin-top:50px;
+    display:inline-block;
+}
+#kbutton {
+    width:200px;
+    height:50px;
+    background-color:#2a2a2a; 
+    -webkit-transition: all .25s ease-in;
+}
+.kimg {
+    width:200px;
+}
+#kabout-socialmedia {
+    width:40px;
+    padding:8px;
+    margin-left:5px;
+}
+#kbuttontext {
+    font-weight:bold;
+    text-align:center;
+    color:white;
+    position:relative;
+    top:15px;
+    font-size:20px;
+}
+#kdersbox {
+    border:3px solid #2a2a2a;
+    width:410px;
+    height:300px;
+    position:relative;
+    padding:15px;
+    margin-top:60px;
+    margin-left:380px;
+    display:inline-block;
+}
+.kdersbox-maintitle {
+    font-weight:bolder;
+    font-size:20px;
+    text-align:center;
+    color:#29303b;
+}
+#kdersbox p {
+    text-align:center;
+    font-weight:bolder;
+    font-size:18px;
+    color:#29303b;
+}
+#kdersboxbutton {
+    width:470px;
+    background-color:#2a2a2a;
+    height:75px;
+    position:relative;
+    right:10px;
+    text-align:center;
+    margin-top:105px;
+}
+#buybutton {
+    background-color:#2a2a2a;
+    width:440px;
+    height:70px;
+    position:relative;
+    right:15px;
+    top:73px;
+    float:left;
+}
+#buybutton2 {
+    background-color:#2a2a2a;
+    width:440px;
+    height:70px;
+    position:relative;
+    right:15px;
+    top:49px;
+    float:left;
+}
+#buybutton-text {
+    font-size:22px;
+    font-weight:bolder;
+    color:white;
+    text-align:center;
+    position:relative;
+    top:20px;
+}
+#kdersbox li {
+    line-height:1.43;
+    font-size:20px;
+    color:#333;
+    list-style: square;
+}
+#kdersbox a {
+    text-decoration:none;
+}
+footer {
+    background-color:#333;
+    width:100%;
+    height:200px;
+}
+#fwork {
+    background-color:#2a2a2a;
+    border:1px solid white;
+    height:130px;
+    width:1000px;
+    border-radius:15px;
+    color:white;
+    position:relative;
+    z-index:999;
+    left:460px;
+    top:60px;
+}
+#fwork span {
+    font-size:25px;
+    font-weight:bolder;
+    position:relative;
+    top:50px;
+    left:35px;
+}
+#fworktext {
+    text-align:center;
+    font-size:20px;
+    position:relative;
+    top:15px;
+}
+#fworkbutton {
+    border:5px solid #4CAF50;
+    width:160px;
+    font-size:20px;
+    text-align:center;
+    border-radius:30px;
+    float:right;
+    position:relative;
+    color:white;
+    padding:10px;
+    right:30px;
+    bottom:35px;
+    -webkit-transition: all .25s ease-in;
+}
+#fworkbutton:hover {
+    background-color:#4CAF50;
+    -webkit-transition: all .25s ease-in;
+}
+footer {
+    position:relative;
+    z-index:15;
+}
+footer img {
+    width:40px;
+    padding:10px;
+    position:relative;
+    left:845px;
+}
+.socialmedia {
+    position:relative;
+    top:85px;
+}
+#copyright {
+    text-align:center;
+    font-size:21px;
+    color:white;
+    position:relative;
+    top:85px;
+}
+.footerpos {
+    position:relative;
+    left:100px;
+}
+#maintitle {
+    font-weight:bolder;
+    font-size:25px;
+}
+#subtitle {
+    font-weight:bolder;
+    font-size:18px;
+}
+#morekurs {
+    color:#29303b;
+    margin-top:60px;
+    float:right;
+    margin-right:180px;
+}
+#morekurs-title {
+    font-size:25px;
+}
+#morekurs li {
+    line-height:1.43;
+    font-size:18px;
+    list-style: square;
+}
+#ksection4text {
+    font-size:30px;
+    font-weight:bolder;
+    color:white;
+    text-align:center;
+    position:relative;
+    top:27px;
+}
+
+/* Responsive Başlangıç */ 
+
+@media screen and (max-width:1679px)
+{
+    #maintitle {
+        font-size:24.5px;
+    }
+    #subtitle {
+        font-size:17.5px;
+    }
+    .ozgecmis {
+        font-size:15.5px;
+    }
+    #kabout {
+        margin-left:200px;
+    }
+    #kdersbox {
+        margin-left:300px;
+        width:360px;
+    }
+    .kdersbox-maintitle {
+        font-size:18.5px;
+    }
+    #morekurs li {
+        font-size:16.5px;
+    }
+    #buybutton {
+        top:52px;
+        width:390px;
+    }
+    #buybutton2 {
+        top:52px;
+        width:390px;
+    }
+    #fwork {
+        margin-left:-110px;
+    }
+    #copyright {
+        margin-left:0px;
+    }
+    .socialmedia {
+        margin-left:0px;
+    }
+    footer img {
+        left:725px;
+    }
+}
+@media screen and (max-width:1640px)
+{
+    #maintitle {
+        font-size:24.5px;
+    }
+    #subtitle {
+        font-size:17.5px;
+    }
+    .ozgecmis {
+        font-size:15.5px;
+    }
+    #kabout {
+        margin-left:200px;
+    }
+    #kdersbox {
+        margin-left:120px;
+        width:370px;
+    }
+    .kdersbox-maintitle {
+        font-size:18.5px;
+    }
+    #morekurs li {
+        font-size:16.5px;
+    }
+    #buybutton {
+        top:50px;
+        width:400px;
+    }
+    #buybutton2 {
+        top:52px;
+        width:400px;
+    }
+    #fwork {
+        margin-left:-140px;
+    }
+    #copyright {
+        margin-left:0px;
+    }
+    .socialmedia {
+        margin-left:0px;
+    }
+    footer img {
+        left:700px;
+    }
+}
+@media screen and (max-width:1589px)
+{
+    #maintitle {
+        font-size:24px;
+    }
+    #subtitle {
+        font-size:17px;
+    }
+    .ozgecmis {
+        font-size:15px;
+    }
+    footer img {
+        left:670px;
+    }
+}
+@media screen and (max-width:1532px)
+{
+    #maintitle {
+        font-size:23.5px;
+    }
+    #subtitle {
+        font-size:16.5px;
+    }
+    .ozgecmis {
+        font-size:14.5px;
+    }
+    #kabout {
+        margin-left:160px;
+    }
+    #kdersbox {
+        margin-left:85px;
+        width:360px;
+        height:280px;
+    }
+    .kdersbox-maintitle {
+        font-size:17.5px;
+    }
+    #morekurs li {
+        font-size:15.5px;
+    }
+    #buybutton {
+        top:54px;
+        width:390px;
+    }
+    #buybutton2 {
+        top:33px;
+        width:390px;
+    }
+    #fwork {
+        margin-left:-170px;
+    }
+    #copyright {
+        margin-left:0px;
+    }
+    .socialmedia {
+        margin-left:0px;
+    }
+    footer img {
+        left:640px;
+    }
+}
+@media screen and (max-width:1494px)
+{
+    #maintitle {
+        font-size:23px;
+    }
+    #subtitle {
+        font-size:16px;
+    }
+    .ozgecmis {
+        font-size:14px;
+    }
+    #kabout {
+        margin-left:140px;
+    }
+    #kdersbox {
+        margin-left:75px;
+        width:340px;
+        height:270px;
+    }
+    .kdersbox-maintitle {
+        font-size:17.5px;
+    }
+    #morekurs li {
+        font-size:15.5px;
+    }
+    #buybutton {
+        top:24px;
+        width:370px;
+    }
+    #buybutton2 {
+        top:23px;
+        width:370px;
+    }
+    #fwork {
+        margin-left:-220px;
+    }
+    #copyright {
+        margin-left:0px;
+    }
+    .socialmedia {
+        margin-left:0px;
+    }
+    footer img {
+        left:620px;
+    }
+}
+@media screen and (max-width:1466px)
+{
+    #maintitle {
+        font-size:23px;
+    }
+    #subtitle {
+        font-size:16px;
+    }
+    .ozgecmis {
+        font-size:14px;
+    }
+    #kabout {
+        margin-left:140px;
+    }
+    #kdersbox {
+        margin-left:75px;
+        width:310px;
+        height:270px;
+    }
+    .kdersbox-maintitle {
+        font-size:18px;
+    }
+    #responsive {
+        font-size:10px;
+    }
+    .responsive li {
+        font-size:15px;
+    }
+    #morekurs li {
+        font-size:16px;
+    }
+    #buybutton {
+        position:relative;
+        width:340px;
+    }
+    #buybutton2 {
+        top:23px;
+        width:340px;
+    }
+    #fwork {
+        margin-left:-220px;
+    }
+    #copyright {
+        margin-left:0px;
+    }
+    .socialmedia {
+        margin-left:0px;
+    }
+    footer img {
+        left:620px;
+    }
+}
+@media screen and (max-width:1439px)
+{
+    #maintitle {
+        font-size:23px;
+    }
+    #subtitle {
+        font-size:16px;
+    }
+    .ozgecmis {
+        font-size:14px;
+    }
+    #kabout {
+        margin-left:140px;
+    }
+    #kdersbox {
+        margin-left:75px;
+        width:300px;
+        height:270px;
+    }
+    .kdersbox-maintitle {
+        font-size:18px;
+    }
+    #morekurs li {
+        font-size:16px;
+    }
+    #buybutton {
+        position:relative;
+        top:-6px;
+        width:330px;
+    }
+    #buybutton2 {
+        top:23px;
+        width:330px;
+    }
+    #fwork {
+        margin-left:-220px;
+    }
+    #copyright {
+        margin-left:0px;
+    }
+    .socialmedia {
+        margin-left:0px;
+    }
+    footer img {
+        left:590px;
+    }
+}
+@media screen and (max-width:1400px)
+{
+    #maintitle {
+        font-size:22.5px;
+    }
+    #subtitle {
+        font-size:15.5px;
+    }
+    .ozgecmis {
+        font-size:13.5px;
+    }
+    #kabout {
+        margin-left:140px;
+    }
+    #kdersbox {
+        margin-left:75px;
+        width:300px;
+        height:270px;
+    }
+    .kdersbox-maintitle {
+        font-size:17.5px;
+    }
+    #morekurs li {
+        font-size:15.5px;
+    }
+    #buybutton {
+        position:relative;
+        top:-6px;
+        width:330px;
+    }
+    #buybutton2 {
+        top:23px;
+        width:330px;
+    }
+    #fwork {
+        margin-left:-220px;
+    }
+    #copyright {
+        margin-left:0px;
+    }
+    .socialmedia {
+        margin-left:0px;
+    }
+    footer img {
+        left:570px;
+    }
+}
+@media screen and (max-width:1370px)
+{
+    #maintitle {
+        font-size:22px;
+    }
+    #subtitle {
+        font-size:15px;
+    }
+    .ozgecmis {
+        font-size:13px;
+    }
+    footer img {
+        left:550px;
+    }
+}
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select:none;
+}
+@media screen and (max-width:1310px)
+{
+    #maintitle {
+        font-size:22px;
+    }
+    #subtitle {
+        font-size:15px;
+    }
+    .ozgecmis {
+        font-size:12px;
+    }
+    #kabout {
+        margin-left:100px;
+    }
+    #kdersbox {
+        margin-left:35px;
+        width:300px;
+        height:270px;
+    }
+    .kdersbox-maintitle {
+        font-size:17px;
+    }
+    #morekurs li {
+        font-size:14.5px;
+    }
+    #buybutton {
+        position:relative;
+        top:-6px;
+        width:330px;
+    }
+    #buybutton2 {
+        top:23px;
+        width:330px;
+    }
+    #fwork {
+        margin-left:-280px;
+    }
+    #copyright {
+        margin-left:-30px;
+    }
+    .socialmedia {
+        position:relative;
+        right:16px;
+    }
+    footer img {
+        left:520px;
+    }
+}
+@media screen and (max-width:1246px)
+{
+    #maintitle {
+        font-size:21.5px;
+    }
+    #subtitle {
+        font-size:14.5px;
+    }
+    .ozgecmis {
+        font-size:11.5px;
+    }
+    #kabout {
+        margin-left:50px;
+    }
+    #kdersbox {
+        margin-left:20px;
+        width:300px;
+        height:270px;
+    }
+    .kdersbox-maintitle {
+        font-size:16.5px;
+    }
+    #morekurs li {
+        font-size:14px;
+    }
+    #buybutton {
+        position:relative;
+        top:0px;
+        width:330px;
+    }
+    #buybutton2 {
+        top:27px;
+        width:330px;
+    }
+    #fwork {
+        margin-left:-350px;
+    }
+    #copyright {
+        margin-left:-30px;
+    }
+    .socialmedia {
+        position:relative;
+        right:16px;
+    }
+    footer img {
+        left:490px;
+    }
+}

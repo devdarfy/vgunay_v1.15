@@ -1,0 +1,277 @@
+/* Mobile Responsive - DersAl */
+
+@media screen and (min-width:2500px) /* 4K */
+{
+    #kabout {
+        margin-left:800px;
+    }
+    #kdersbox {
+        position:relative;
+        left:400px;
+    }
+    #morekurs {
+        margin-right:500px;
+    }
+    .rspnsv {
+        position:relative;
+        right:320px;
+    }
+    #fwork {
+        left:800px;
+    }
+}
+@media screen and (max-width:800px) /* Ipad Pro */
+{
+    .ozgecmis {
+        font-size:10px;
+        margin-left:50px;
+    }
+    #ksection3 {
+        width:1110px;
+    }
+    footer {
+        width:1110px;
+    }
+    #kdersbox {
+        margin-left:100px;
+    }
+    #morekurs {
+        margin-right:0px;
+    }
+    #morekurs-title {
+        font-size:15px;
+    }
+    #morekurs li{
+        font-size:12.5px;
+    }
+    .rspnsv {
+        position:relative;
+        right:-200px;
+        bottom:350px;
+    }
+    #fwork {
+        width:950px;
+        left:440px;
+    }
+    #fworkbutton {
+        right:-250px;
+    }
+    #fworktext {
+        margin-left:260px;
+    }
+    footer img {
+        position:relative;
+        left:450px;
+    }
+}
+@media screen and (max-width:800px) /* Nexus 10 */
+{
+    .ozgecmis {
+        font-size:10px;
+    }
+    #ksection3 {
+        width:1110px;
+    }
+    footer {
+        width:1110px;
+    }
+    #kdersbox {
+        margin-left:0px;
+    }
+    #morekurs {
+        margin-right:0px;
+    }
+    #morekurs-title {
+        font-size:15px;
+    }
+    #morekurs li{
+        font-size:12.5px;
+    }
+    .rspnsv {
+        position:relative;
+    }
+    #fwork {
+        width:950px;
+        left:440px;
+    }
+    #fworkbutton {
+    }
+    #fworktext {
+    }
+    footer img {
+        position:relative;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:1024px)
+{
+    #maintitle {
+        font-size:16px;
+    }
+    #subtitle {
+        font-size:15px;
+    }
+    .ozgecmis {
+        font-size:12px;
+        margin-right:-500px;
+    }
+    #kabout {
+        margin-left:150px;
+    }
+    #ksection3 {
+        width:1330px;
+    }
+    #morekurs-title {
+        font-size:17px;
+    }
+    #morekurs {
+        font-size:15px;
+        margin-right:120px;
+    }
+    .rspnsv {
+        position:relative;
+        left:80px;
+        bottom:350px;
+    }
+    #kdersbox li {
+        font-size:16px;
+    }
+    #buybutton {
+        top:45px;
+        width:233px;
+    }
+    #buybutton2 {
+        top:25px;
+        width:233px;
+    }
+    #kdersbox {
+        width:200px;
+    }
+    .responsive {
+        font-size:10px;
+    }
+    .kdersbox-maintitle {
+        font-size:16px;
+    }
+    #kdersbox p {
+        font-size:14px;
+    }
+    footer {
+        width:1330px;
+        top:5px;
+        height:240px;
+    }
+    #fwork {
+        width:1000px;
+    }
+    #fworkbutton {
+        right:-400px;
+    }
+    #fworktext {
+        right:-220px;
+    }
+    .socialmedia {
+        top:120px;
+    }
+    footer img {
+        padding:6px;
+        position:relative;
+        left:530px;
+    }
+    #copyright {
+        top:140px;
+    }
+}
+@media screen and (min-width:800px)
+{
+    #maintitle {
+        font-size:16px;
+    }
+    #subtitle {
+        font-size:15px;
+    }
+    .ozgecmis {
+        font-size:12px;
+        margin-right:-500px;
+    }
+    #kabout {
+        margin-left:150px;
+    }
+    #ksection3 {
+        width:1330px;
+    }
+    #morekurs-title {
+        font-size:17px;
+    }
+    #morekurs {
+        font-size:15px;
+        margin-right:-420px;
+    }
+    .rspnsv {
+        position:relative;
+        left:600px;
+        bottom:350px;
+    }
+    #buybutton {
+        top:45px;
+        width:233px;
+    }
+    #buybutton2 {
+        top:25px;
+        width:233px;
+    }
+    #kdersbox {
+        width:200px;
+        margin-left:300px;
+    }
+    .responsive {
+        font-size:10px;
+    }
+    .kdersbox-maintitle {
+        font-size:16px;
+    }
+    #kdersbox p {
+        font-size:14px;
+    }
+    footer {
+        width:1330px;
+        top:5px;
+        height:240px;
+    }
+    #fwork {
+        width:1000px;
+        margin-left:-300px;
+    }
+    #fworkbutton {
+        right:-630px;
+        position:relative;
+        bottom:60px;
+    }
+    #fworktext {
+        right:-350px;
+    }
+    .socialmedia {
+        top:50px;
+    }
+    footer img {
+        padding:6px;
+        position:relative;
+        left:0px;
+    }
+    #copyright {
+        top:60px;
+    }
+}
+@media screen and (max-width:768px) 
+{
+    
+} */

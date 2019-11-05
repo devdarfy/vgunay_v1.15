@@ -1,0 +1,161 @@
+/* Mobile Responsive - Anasayfa */
+
+@media screen and (min-width:2500px) /* 4K */
+{
+    #section2 {
+        left:680px;
+    }
+    .comment {
+        position:relative;
+        left:50px;
+    }
+    #fwork {
+        left:800px;
+    }
+    .socialmedia {
+        left:320px;
+    }
+}
+@media screen and (max-width:1024px) /* Ipad Pro */
+{
+    #section1 {
+        width:1240px;
+    }
+    #section4h1 {
+        width:1240px;
+    }
+    footer {
+        width:1240px;
+    }
+    #section2 {
+        width:1200px;
+        position:relative;
+        left:15px;
+    }
+    .comment {
+        width:95%;
+        position:relative;
+        left:85px;
+    }
+    #fwork {
+        position:relative;
+        left:150px;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
+@media screen and (max-width:800px) /* Nexus 10 */
+{
+    .comment {
+        width:120%;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
+@media screen and (max-width:768px) /* Ipad, Ipad Mini */
+{
+    .comment {
+        width:900px;
+        left:120px;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
+@media screen and (max-width:425px) /* iPhone 6/7/8 Plus */
+{
+    .comment {
+        width:220%;
+        left:100px;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
+@media screen and (max-width:411px) /* Pixel 2 - XL */
+{
+    .comment {
+        width:220%;
+        left:100px;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
+@media screen and (max-width:375px) /* iPhone 6/7/8 */
+{
+    .comment {
+        width:250%;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
+@media screen and (max-width:360px) /* Galaxy S5 */
+{
+    .comment {
+        width:270%;
+        left:80px;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
+@media screen and (max-width:320px) /* iPhone 5/SE */
+{
+    .comment {
+        width:290%;
+        left:100px;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
+@media screen and (max-width:320px) /* iPhone 4 */
+{
+    .comment {
+        width:290%;
+        left:100px;
+    }
+    .aracizgi {
+        bottom:225px;
+    }
+    #section2right {
+        position:relative;
+        bottom:20px;
+    }
+}
